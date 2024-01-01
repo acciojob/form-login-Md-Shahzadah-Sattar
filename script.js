@@ -10,7 +10,7 @@ function getFormvalue() {
     var lastName = document.forms["form1"]["lname"].value;
 
     // Display the values using alert
-    alert("First Name: " + firstName + "\nLast Name: " + lastName);
+    alert( firstName + " "+ lastName);
 
     // Return false to prevent the form from submitting (optional)
     return false;
